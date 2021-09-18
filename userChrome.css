@@ -1,0 +1,27 @@
+/* My Account:https://www.facechance.com/kensnow
+   My Public Account: https://www.facechance.com/public/?id=8661781805
+*/
+vbox.tab-background {
+    margin: 0 !important;
+}
+
+.tab-line {
+  display: none;
+}
+.tab-background {
+
+  transform: perspective(10px) rotateX(2.5deg);
+}
+.tabbrowser-tab::before, 
+.tabbrowser-tab::after{
+  display: none !important;
+}
+
+.titlebar-spacer{
+  display: none
+}
+@-moz-document url("chrome://browser/content/browser.xhtml"){
+.tab-loading-burst{
+  display: none !important;
+}
+}
